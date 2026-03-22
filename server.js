@@ -16,7 +16,7 @@ app.post("/api/chat", async (req, res) => {
 
     try {
         const response = await fetch(
-            "https://api.groq.com/openai/v1/chat/completions",
+            "https://orbiter-backend.onrender.com",
             {
                 method: "POST",
                 headers: {
