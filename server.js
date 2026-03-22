@@ -1,4 +1,4 @@
-import express from "express";
+:import express from "express";
 import cors from "cors";
 
 const app = express();
@@ -16,7 +16,7 @@ app.post("/api/chat", async (req, res) => {
 
     try {
         const response = await fetch(
-            "https://orbiter-backend.onrender.com",
+            "https://api.groq.com/openai/v1/chat/completions",
             {
                 method: "POST",
                 headers: {
