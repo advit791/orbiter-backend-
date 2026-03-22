@@ -1,28 +1,15 @@
 {
-  "name": "orbiter.github.io",
+  "name": "orbiter-backend",
   "version": "1.0.0",
-  "description": "HackPad Student 2026 Project",
-  "main": "game.js",
+  "description": "Backend for Orbiter AI Chatbox",
+  "main": "server.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CoderSPS/orbiter.github.io.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "module",
-  "bugs": {
-    "url": "https://github.com/CoderSPS/orbiter.github.io/issues"
-  },
-  "homepage": "https://github.com/CoderSPS/orbiter.github.io#readme",
   "dependencies": {
-    "cors": "^2.8.6",
-    "express": "^5.2.1",
-    "node-fetch": "^3.3.2"
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
   }
 }
 
